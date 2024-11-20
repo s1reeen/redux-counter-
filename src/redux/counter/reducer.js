@@ -20,10 +20,7 @@ export const counterReducer = (state = initialState, action) => {
       };
 
     case reset.type:
-      return {
-        ...state,
-        counter: 0,
-      };
+      return initialState;
 
     default:
       return state;
