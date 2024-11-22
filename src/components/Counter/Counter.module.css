@@ -20,16 +20,33 @@ body {
 .count {
   font-size: 140px;
   color: orangered;
+  margin: 60px;
 }
 
 .btn {
-  padding: 15px 25px;
+  padding: 1rem 2rem;
   border-radius: 5px;
   border: 0px solid;
-  font-size: 15px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.btn:hover {
+  background-color: rgb(169, 169, 169);
 }
 
 .buttonsBlock {
   display: flex;
+  gap: 1rem;
+}
+
+.uiBlock {
+  display: flex;
+  flex-direction: column;
   gap: 10px;
+}
+
+.step {
+  padding: 10px;
 }
